@@ -26,6 +26,6 @@ const mailsend = (to,html)=>{
         }
     })
 }
-// mailsend('hello');
+
 module.exports = mailsend;
 

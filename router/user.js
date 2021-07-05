@@ -20,7 +20,7 @@ router.post('/scan',async (req,res)=>{
             data:result2 
         })
         mailsend(result3.email,`
-        Name: ${result3.name} <br>
+        Name:  ${result3.name} <br>
         Age: ${result3.age} <br>
         email: ${result3.email}<br>
         ${result2}`
